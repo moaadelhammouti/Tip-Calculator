@@ -4,14 +4,12 @@
     border: 0;
     border-top: 1px solid #ffffff;
 }
-
 .header{
     font-style: 'Saira Extra Condensed';
     font-style: normal;
     font-weight: bold;
     font-size: 80;
     color: #000000;
-    
 }
 #container{
     position: fixed;
