@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+body {
+background-image: url('the one.JPG');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover;
+}
+
+</style>
+</head>
+
+<body>
+
+    <div id="container">
+<h2 class="header">Tip Calculator</h2>
+<hr class="black">
+<div id="form" class="box1" >
+<h3>Bill Amount :</h3>
+<input id="Bill" type="text" placeholder="Bill Amount ?" >
+<h3> Tip Amount 
+<select id="servicequality">
+<option value="0.0">0%</option>
+<option value="0.05">5%</option>
+<option value="0.1">10%</option>
+<option value="0.15">15%</option>
+<option value="0.2">20%</option>
+</select>
+</h3>
+<div>
+    <h3 class="people">How many People wanna share the Bill ? </h3>
+    <input class="input" type="text" id=share placeholder="How Many ?">
+</div>
+<button type="button" id="calculate">Calculate!</button>
+
+</div>
+<br>
+<div id="totaltip" class="new">
+<h3>Tip Total:
+<span id=tipTotal></span></h3>
+<h3>Bill Total:
+<span id=billTotal></span></h3>
+<script src="tip.js"></script>
+</div>
+</div>
+
+</body>
+</html>

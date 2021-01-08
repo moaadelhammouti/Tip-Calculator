@@ -1,0 +1,63 @@
+.black{
+    width: 50px;
+    height: .5em;
+    border: 0;
+    border-top: 1px solid #ffffff;
+}
+
+.header{
+    font-style: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80;
+    color: #000000;
+    
+}
+#container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    text-align: center;
+    background: #808080;
+    width: 234px;
+    height: 334px;
+    border-radius: 22px;
+    opacity: 85%;
+}
+.box1{
+    background-color: white;
+    border-radius:16px;
+    height: 60%;
+    padding: 0px;
+    margin: 10px ;
+}
+#calculate {
+    font-size: medium;
+    height: 31px;
+    width: 135px;
+    bottom: 58px;
+    box-sizing: border-box;
+    left: 367px;
+    top: 201px;
+    border-radius: 0px;
+}
+.new{
+    background: #ffffff;
+    margin: 20px 10px;
+    padding-right: 90px;
+    font-weight: 100;
+    font-size:small;
+    font-style: initial;
+    border-radius: 6px;
+}
+.people{
+    margin-top: -0.15px;
+    font-style: italic;
+    font-size: medium;
+    font-weight: 600;
+}
+.input{
+    margin-bottom: 10px;
+}
