@@ -1,4 +1,4 @@
-
+//  add some javaScript to create highly responsive interfaces that improve the user experience and provide dynamic functionality.
 function calculateTip() {
 var billAmt = document.getElementById("Bill").value;
 var servicequality = document.getElementById("servicequality").value;
