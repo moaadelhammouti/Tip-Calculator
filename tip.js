@@ -1,4 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+//  add some javaScript to create highly responsive interfaces that improve the user experience and provide dynamic functionality.
+>>>>>>> c131a2336e894f50ba7805e1c7fa9c5fa1429925
 =======
 //  add some javaScript to create highly responsive interfaces that improve the user experience and provide dynamic functionality.
 >>>>>>> c131a2336e894f50ba7805e1c7fa9c5fa1429925
@@ -20,5 +24,8 @@ document.getElementById("calculate").onclick = function () {
 document.getElementById("calculate").onclick = function()
 {
 calculateTip();
+<<<<<<< HEAD
+>>>>>>> c131a2336e894f50ba7805e1c7fa9c5fa1429925
+=======
 >>>>>>> c131a2336e894f50ba7805e1c7fa9c5fa1429925
 };
